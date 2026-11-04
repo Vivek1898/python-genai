@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.35.0](https://github.com/googleapis/python-genai/compare/v2.34.0...v2.35.0) (2026-11-04)
+
+
+### Features
+
+* Add `source_text` to `AudioTranscriptionConfig` and `SmartTranscriptionMode`. ([1ac3c91](https://github.com/googleapis/python-genai/commit/1ac3c915d1b1eae5323f2cfed1676ef2cec2c897))
+* **cli:** Use gemini-3.5-transcribe as default model for transcribe command ([b18fd3c](https://github.com/googleapis/python-genai/commit/b18fd3cbe8696588ba8c78c79802707c09708fd6))
+* Disable GenerateVideos for Gemini API, update tests/READMEs ([8ddc655](https://github.com/googleapis/python-genai/commit/8ddc655c5ed5395e1dc976a670d7a054e6245689))
+* **interactions:** Add Office and OpenDocument MIME types ([753cc1c](https://github.com/googleapis/python-genai/commit/753cc1c2a67ea33b2629a9c6f2a8e04af4d1d1e1))
+
+
+### Bug Fixes
+
+* Preserve unknown fields and open-union variants in Interactions models ([2eaf2d8](https://github.com/googleapis/python-genai/commit/2eaf2d84e6cc3714eb5b5669fc26a2a1f5edf6c9))
+
 ## [2.34.0](https://github.com/googleapis/python-genai/compare/v2.33.0...v2.34.0) (2026-10-29)
 
 
